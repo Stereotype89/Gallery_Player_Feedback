@@ -36,21 +36,3 @@ function onSubmit(evt) {
   evt.currentTarget.reset();
   localStorage.removeItem(STORAGE_KEY);
 }
-
-// const refs = {
-//   form: document.querySelector('feedback-form-state'),
-// };
-
-// function onFormSubmit(evt) {
-//   evt.preventDefault();
-//   const {
-//     elements: { email, message },
-//   } = evt.currentTarget;
-//   if (email.value === '' || message.value === '') {
-//     return alert('Please, fill all fields!');
-//   }
-//   console.log({ email: email.value, message: message.value });
-
-//   evt.currentTarget.reset();
-//   localStorrage.removeItem(STORRAGE_KEY);
-// }
